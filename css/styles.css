@@ -6,12 +6,23 @@
   --white-color: #ffffff;
   --cloud-light-color: #f4f4fd;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
   background-color: var(--white-color);
-}
-.header {
 }
 
 .link {
@@ -19,6 +30,15 @@ body {
 }
 .list {
   list-style: none;
+}
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 24px;
 }
 .color-logo {
   color: var(--main-title-color);
@@ -75,6 +95,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  margin-bottom: 48px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
