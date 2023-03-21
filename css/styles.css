@@ -1,0 +1,199 @@
+:root {
+  --main-title-color: #2e2f42;
+  --primary-brand-color: #404bbf;
+  --pressed-state-color: #4d5ae5;
+  --text-color: #434455;
+  --white-color: #ffffff;
+  --cloud-light-color: #f4f4fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+.header {
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.color-logo {
+  color: var(--main-title-color);
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--pressed-state-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--primary-brand-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+.header-address-list {
+  font-style: normal;
+}
+.header-contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--primary-brand-color);
+}
+
+/*------hero-----*/
+.hero {
+  background-color: var(--main-title-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  cursor: pointer;
+  background-color: var(--pressed-state-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--primary-brand-color);
+}
+
+.advantages-hidden {
+  color: var(--main-title-color);
+}
+.team-background {
+  background-color: var(--white-color);
+}
+.portfolio-button-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud-light-color);
+  color: var(--pressed-state-color);
+  cursor: pointer;
+}
+.portfolio-button-list:hover,
+.portfolio-button-list:focus {
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
+}
+/*--------------section1------*/
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+/*--------------section2------*/
+.we-doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+/*--------------section3------*/
+.team {
+  background: var(--cloud-light-color);
+}
+.team-top-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+.smol-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.smol-text {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+/*--------------Fotter--------*/
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--pressed-state-color);
+}
+.footer-color-logo {
+  color: var(--cloud-light-color);
+}
+
+.footer {
+  background: var(--main-title-color);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud-light-color);
+}
